@@ -1,0 +1,61 @@
+<style>
+   #div1
+     {
+      text-size:20px;
+      color:blue;
+		}
+	.container
+	{
+		display:flex;
+		flex-wrap: wrap;
+		flex-direction:row;
+		justify-content: center;
+	}	
+	img
+	{
+		width: 300px;
+		height :200px;
+		margin: 20px;
+		transition: all 1s;
+		box-shadow: 4px 4px 4px #ccffff
+	}
+	img:hover
+	{
+		transform: rotate(10deg);
+	}
+	body
+	{
+		background-color:#3a4460;
+	}
+
+#aa{
+	border: 2px solid black;
+	height: 50px;
+	width: 300px;
+	text-align: center;
+	margin: auto;
+	font-size: 30px;
+	color: white;
+	font-family:"Comic Sans MS",cursive,sans-serif;
+	background-color: #3a4460;
+	
+    }
+#ab{
+	border: 2px solid black;
+	height: 50px;
+	width: 400px;
+	text-align: center;
+	color: white;
+	font-family:"Comic Sans MS",cursive,sans-serif;
+	margin: auto;
+	background-color: #3a4460;
+	
+   }
+#ab:hover{
+	transition: 1s;
+	transform: scale(1.2,1.2);
+	background-color: #800000;
+}	
+	
+</style>
+	
